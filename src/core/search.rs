@@ -3,6 +3,7 @@ use std::fmt;
 
 const TRIM_PRESERVED_CHARS_LEN: usize = 15;
 
+/// search result
 #[derive(Debug)]
 pub struct PdfSearchResult {
     pub page_num: u32,
@@ -16,6 +17,7 @@ impl fmt::Display for PdfSearchResult {
     }
 }
 
+/// search main handler
 pub fn handle(
     keyword: &str,
     filepath: &str,
