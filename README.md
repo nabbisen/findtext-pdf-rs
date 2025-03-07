@@ -1,4 +1,4 @@
-# Find Text Sheet
+# Find Text PDF
 
 [![crates.io](https://img.shields.io/crates/v/findtext_pdf?label=latest)](https://crates.io/crates/findtext_pdf)
 [![Documentation](https://docs.rs/findtext_pdf/badge.svg?version=latest)](https://docs.rs/findtext_pdf/latest)
