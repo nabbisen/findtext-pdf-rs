@@ -1,0 +1,30 @@
+[package]
+name = "findtext_pdf"
+version = "0.1.0"
+edition = "2021"
+
+description = "Search text in PDF"
+authors = ["nabbisen <nabbisen@scqr.net>"]
+license = "Apache-2.0"
+
+categories = ["development-tools", "command-line-utilities", "text-processing", "data-structures"]
+keywords = ["pdf", "cli", "search", "text"]
+repository = "https://github.com/nabbisen/findtext-pdf-rs"
+readme = "README.md"
+rust-version = "1.78.0"
+
+[profile.release]     # shrink executable size
+opt-level = "z"
+lto = true
+# panic = "abort"
+strip = true
+codegen-units = 1
+
+[profile.dev]         # to reasonably improve productivity
+opt-level = 1         # slightly optimize
+lto = false           # disable link-time optimizations
+# strip = "debuginfo" # reduce size
+incremental = true
+
+[dependencies]
+lopdf = "^0.35"
