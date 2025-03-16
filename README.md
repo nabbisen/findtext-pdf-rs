@@ -1,9 +1,9 @@
 # Find Text PDF
 
 [![crates.io](https://img.shields.io/crates/v/findtext_pdf?label=latest)](https://crates.io/crates/findtext_pdf)
-[![Documentation](https://docs.rs/findtext_pdf/badge.svg?version=latest)](https://docs.rs/findtext_pdf/latest)
-[![Dependency Status](https://deps.rs/crate/findtext_pdf/latest/status.svg)](https://deps.rs/crate/findtext_pdf/latest)
-[![Releases Workflow](https://github.com/nabbisen/findtext-pdf-rs/actions/workflows/release.yml/badge.svg)](https://github.com/nabbisen/findtext-pdf-rs/actions/workflows/)
+[![Documentation](https://docs.rs/findtext_pdf/badge.svg?version=latest)](https://docs.rs/findtext_pdf)
+[![Dependency Status](https://deps.rs/crate/findtext_pdf/latest/status.svg)](https://deps.rs/crate/findtext_pdf)
+[![Releases Workflow](https://github.com/nabbisen/findtext-pdf-rs/actions/workflows/release-executable.yaml/badge.svg)](https://github.com/nabbisen/findtext-pdf-rs/actions/workflows/release-executable.yaml)
 [![License](https://img.shields.io/github/license/nabbisen/findtext-pdf-rs)](https://github.com/nabbisen/findtext-pdf-rs/blob/main/LICENSE)
 
 ## Summary
